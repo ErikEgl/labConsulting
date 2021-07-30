@@ -1,392 +1,439 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<title>About</title>
-		<!-- Bootstrap Reboot CSS -->
-		<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="css/dz.css">
-			<!-- Font -->
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no,
+            initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>About</title>
+        <!-- Bootstrap Reboot CSS -->
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/jquery-ui.min.css">
     </head>
-<body class="js-body">
-    <!-- Preloader Start -->
-    <div id="page-preloader"><span class="spinner"></span></div>
+    <body class="js-body">
+        <!-- Preloader Start -->
+        <div id="page-preloader"><span class="spinner"></span></div>
         <!-- Preloader Finish -->
-    <header class="header header__about" id="header">
-        <div class="header__nav gray-background">
+        <header class="header header__about" id="header">
+            <div class="header__nav gray-background">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-5 col-sm-6 col-lg-4">
+                            <a href="index.html"><img src="img/logo.png"
+                                    alt="LAB Consulting" class="logo"></a>
+                        </div>
+                        <div class="d-xl-block col-xl-6 menu-collapse">
+                            <div class="header_wrap d-flex">
+                                <a href="about.html" class="header__menu">
+                                    О компании
+                                </a>
+                                <a href="services.html" class="header__menu">
+                                    Услуги
+                                </a>
+                                <a href="contacts.html" class="header__menu">
+                                    Контакты
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-3 col-xl-2 ml-auto
+                            modal_window">
+                            <a href="#" class="header__btn btn">
+                                <i class="fa fa-phone"></i>
+                                Заказать звонок
+                            </a>
+                            <a href="#" class="header__btn_mini header__btn
+                                btn">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                        </div>
+                        <div class="col-2 col-sm-1 d-xl-none">
+                            <button class="menu-open">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="nav" id="nav">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-5 col-sm-6 col-lg-4">
-                        <a href="index.html"><img src="img/logo.png" alt="LAB Consulting" class="logo"></a>
-                    </div>
-                    <div class="d-xl-block col-xl-6 menu-collapse">
-                        <div class="header_wrap d-flex">
-                            <a href="about.html" class="header__menu">
+                    <div class="col-12 col-lg-4 col-xl-5">
+                        <div class="nav__wrap">
+                            <div class="nav__heading">
                                 О компании
+                            </div>
+                            <div class="nav__wrapper">
+                                <a href="index.html" class="nav__link">
+                                    Главная
+                                </a>
+                                <a href="#" class="nav__link">
+                                    → О компании
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8 col-xl-7">
+                        <div class="header__wrap nav__wrapping d-flex">
+                            <a href="#" class="nav__menu">
+                                Видение
                             </a>
-                            <a href="services.html" class="header__menu">
-                                Услуги
+                            <a href="#" class="nav__menu">
+                                Преимущества
                             </a>
-                            <a href="contacts.html" class="header__menu">
+                            <a href="#" class="nav__menu">
+                                Клиенты
+                            </a>
+                            <a href="#" class="nav__menu">
+                                Партнеры
+                            </a>
+                            <a href="contacts.html" class="nav__menu">
                                 Контакты
                             </a>
                         </div>
                     </div>
-                    <div class="col-5 col-sm-5 col-md-3 col-xl-2 ml-auto modal_window">
-                        <a href="#" class="header__btn btn">
-                            <i class="fa fa-phone"></i>
-                            Заказать звонок
-                        </a>
-                        <a href="#" class="header__btn_mini header__btn btn">
-                            <i class="fa fa-phone"></i>
-                        </a>     
+                </div>
+            </div>
+        </section>
+        <section class="advantage" id="advantage">
+            <div class="container">
+                <h2 class="advantage__title">
+                    Преимущества LAB Consult
+                </h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="advantage__text">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur magni dolores eos qui ratione
+                            voluptatem sequi nesciunt.
+                        </p>
                     </div>
-                    <div class="col-2 col-sm-1 d-xl-none">
-                        <button class="menu-open">
-                            <i class="fa fa-bars"></i>
-                        </button>
+                    <div class="col-sm-6">
+                        <p class="advantage__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat commodo consequat.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>  
-    <section class="nav" id="nav">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-4 col-xl-5">
-                    <div class="nav__wrap">
-                        <div class="nav__heading">
-                            О компании
+        </section>
+        <section class="enumeration" id="enumeration">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 enumeration__hook">
+                        <div class="enumeration__border">
+                            <div class="enumeration__img-wrap circle-wrap">
+                                <img src="img/Scale.png" alt="Scale"
+                                    class="enumeration__img">
+                            </div>
+                            <div class="enumeration__wrap">
+                                <h6 class="enumeration__title">
+                                    Первое весомое преимущество
+                                </h6>
+                                <p class="enumeration__text">
+                                    Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa
+                                    quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt
+                                    explicabo. Nemo enim ipsam voluptatem quia
+                                    voluptas sit aspernatur aut odit aut fugit,
+                                    sed quia consequuntur magni dolores eos qui
+                                    ratione voluptatem sequi nesciunt.
+                                </p>
+                            </div>
                         </div>
-                        <div class="nav__wrapper">
-                            <a href="index.html" class="nav__link">
-                                Главная 
-                            </a>
-                            <a href="#" class="nav__link">
-                                → О компании
-                            </a>
+                    </div>
+                    <div class="col-12 enumeration__hook">
+                        <div class="enumeration__border">
+                            <div class="enumeration__img-wrap circle-wrap">
+                                <img src="img/Scale.png" alt="Scale"
+                                    class="enumeration__img">
+                            </div>
+                            <div class="enumeration__wrap">
+                                <h6 class="enumeration__title">
+                                    Второе сильное и мощное преимущество
+                                </h6>
+                                <p class="enumeration__text">
+                                    Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa
+                                    quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt
+                                    explicabo. Nemo enim ipsam voluptatem quia
+                                    voluptas sit aspernatur aut odit aut fugit,
+                                    sed quia consequuntur magni dolores eos qui
+                                    ratione voluptatem sequi nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 enumeration__hook">
+                        <div class="enumeration__border">
+                            <div class="enumeration__img-wrap circle-wrap">
+                                <img src="img/Scale.png" alt="Scale"
+                                    class="enumeration__img">
+                            </div>
+                            <div class="enumeration__wrap">
+                                <h6 class="enumeration__title">
+                                    Третье и финальное сильное и мощное
+                                    преимущество
+                                </h6>
+                                <p class="enumeration__text">
+                                    Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa
+                                    quae ab illo inventore veritatis et quasi
+                                    architecto beatae vitae dicta sunt
+                                    explicabo. Nemo enim ipsam voluptatem quia
+                                    voluptas sit aspernatur aut odit aut fugit,
+                                    sed quia consequuntur magni dolores eos qui
+                                    ratione voluptatem sequi nesciunt.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-8 col-xl-7">
-                    <div class="header__wrap nav__wrapping d-flex">
-                        <a href="#" class="nav__menu">
-                            Видение         
+            </div>
+        </section>
+        <section class="photo" id="photo">
+            <div class="container">
+                <h2 class="photo__title">
+                    Фото наших мощностей
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-sm-3">
+                        <div class="photo__img photo__img_lift">
+                            <div class="photo__overlay">
+                                <a href="#" class="photo__link">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="photo__img photo__img_truck1">
+                            <div class="photo__overlay">
+                                <a href="#" class="photo__link">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="photo__img photo__img_truck2">
+                            <div class="photo__overlay">
+                                <a href="#" class="photo__link">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3">
+                        <div class="photo__img photo__img_ship">
+                            <div class="photo__overlay">
+                                <a href="#" class="photo__link">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="navigation" id="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h6 class="navigation__title">
+                            О компании
+                        </h6>
+                        <a href="#" class="navigation__link">
+                            Видение, миссия и ценности
                         </a>
-                        <a href="#" class="nav__menu">
-                            Преимущества         
+                        <a href="#" class="navigation__link">
+                            Преимущества
                         </a>
-                        <a href="#" class="nav__menu">
-                            Клиенты         
+                        <a href="#" class="navigation__link">
+                            Клиенты
                         </a>
-                        <a href="#" class="nav__menu">
-                            Партнеры              
+                        <a href="#" class="navigation__link">
+                            Партнеры
                         </a>
-                        <a href="contacts.html" class="nav__menu">
+                        <a href="#" class="navigation__link">
                             Контакты
                         </a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>  
-    <section class="advantage" id="advantage">
-        <div class="container">
-            <h2 class="advantage__title">
-                Преимущества LAB Consult
-            </h2>
-            <div class="row">
-                <div class="col-sm-6">
-                    <p class="advantage__text">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                    </p>
-                </div>      
-                <div class="col-sm-6">
-                      <p class="advantage__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat commodo consequat.
-                    </p>
-                </div>            
-            </div>
-        </div>
-    </section> 
-    <section class="enumeration" id="enumeration">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 enumeration__hook">
-                    <div class="enumeration__border">
-                        <div class="enumeration__img-wrap circle-wrap">
-                            <img src="img/Scale.png" alt="Scale" class="enumeration__img">
-                        </div>
-                        <div class="enumeration__wrap">
-                            <h6 class="enumeration__title">
-                                Первое весомое преимущество
-                            </h6>
-                            <p class="enumeration__text">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                            </p>
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h6 class="navigation__title">
+                            Пресс – центр
+                        </h6>
+                        <a href="#" class="navigation__link">
+                            Новости
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Публикации
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Мероприятия
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Консультация эксперта
+                        </a>
                     </div>
-                </div>   
-                <div class="col-12 enumeration__hook">
-                    <div class="enumeration__border">
-                        <div class="enumeration__img-wrap circle-wrap">
-                            <img src="img/Scale.png" alt="Scale" class="enumeration__img">
-                        </div>
-                        <div class="enumeration__wrap">
-                            <h6 class="enumeration__title">
-                                Второе сильное и мощное преимущество
-                            </h6>
-                            <p class="enumeration__text">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                            </p>
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h6 class="navigation__title">
+                            Услуги
+                        </h6>
+                        <a href="#" class="navigation__link">
+                            Legal (Юридическое сопровождение)
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Accounting ( Финансовый аутсорсинг)
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Business Consulting (Бизнес консалтинг)
+                        </a>
                     </div>
-                </div> 
-                <div class="col-12 enumeration__hook">
-                    <div class="enumeration__border">
-                        <div class="enumeration__img-wrap circle-wrap">
-                            <img src="img/Scale.png" alt="Scale" class="enumeration__img">
-                        </div>
-                        <div class="enumeration__wrap">
-                            <h6 class="enumeration__title">
-                                Третье и финальное сильное и мощное преимущество
-                            </h6>
-                            <p class="enumeration__text">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                            </p>
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h6 class="navigation__title navigation__title_margin">
+                            Отрасли
+                        </h6>
+                        <a href="#" class="navigation__link">
+                            Аграрный сектор
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Внешнеэкономическая деятельность
+                        </a>
+                        <a href="#" class="navigation__link">
+                            ИT – бизнес
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Оптовая и розничная торговля
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Сфера услуг
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Транспорт и Логистика
+                        </a>
                     </div>
-                </div>          
-            </div>
-        </div>
-    </section> 
-    <section class="photo" id="photo">
-        <div class="container">
-            <h2 class="photo__title">
-                Фото наших мощностей
-            </h2>
-            <div class="row">
-                <div class="col-12 col-sm-3">
-                    <div class="photo__img photo__img_lift">
-                        <div class="photo__overlay">
-                            <a href="#" class="photo__link">
-                                <i class="fa fa-expand"></i>
-                            </a>
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h6 class="navigation__title navigation__title_margin">
+                            Образовательный центр
+                        </h6>
+                        <a href="#" class="navigation__link">
+                            Про Образовательный Центр
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Бизнес-тренинги, семинары, круглые столы
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Преимущества
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Alumni
+                        </a>
                     </div>
-                </div>   
-                <div class="col-12 col-sm-3">
-                    <div class="photo__img photo__img_truck1">
-                        <div class="photo__overlay">
-                            <a href="#" class="photo__link">
-                                <i class="fa fa-expand"></i>
-                            </a>
-                        </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <h6 class="navigation__title navigation__title_margin">
+                            Соц. предпринимательство
+                        </h6>
+                        <a href="#" class="navigation__link">
+                            Социальная миссия
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Проекты
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Партнеры
+                        </a>
+                        <a href="#" class="navigation__link">
+                            Консультация эксперта
+                        </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-3">
-                    <div class="photo__img photo__img_truck2">
-                        <div class="photo__overlay">
-                            <a href="#" class="photo__link">
-                                <i class="fa fa-expand"></i>
-                            </a>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-4 col-lg-3 col-xl-4">
+                        <img src="img/logo.png" alt="LAB Consulting" class="logo
+                            footer__logo">
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3">
+                        <p class="footer__text footer__text_want">
+                            Вы хотите сотрудничать с нами?<br>
+                            У Вас есть идеи или предложения?
+                            Свяжитесь с нами прямо сейчас!
+                        </p>
+                        <p class="footer__text footer__text_place">
+                            65000,<br>
+                            Украина, г. Одесса
+                            Ул Базарная, 36
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg-3">
+                        <div class="footer__wrap d-flex">
+                            <div class="footer__letter">
+                                W
+                            </div>
+                            <div class="footer__wrapper">
+                                <p class="footer__text">
+                                    Дизайн и разработка
+                                </p>
+                                <p class="footer__text footer__text_big">
+                                    Коучинг по верстке
+                                </p>
+                            </div>
                         </div>
+                        <p class="footer__text footer__text_rights">
+                            © Все права защищены<br>
+                            <Span>LAB Consulting</Span>
+                        </p>
+                        <a href="#" class="footer__link footer__text_link">
+                            lab-consult.com
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-block col-lg-3 col-xl-2 ml-auto">
+                        <a href="#" class="footer__btn btn modal_window">
+                            <i class="fa fa-phone"></i>
+                            Заказать звонок
+                        </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-3">
-                    <div class="photo__img photo__img_ship">
-                        <div class="photo__overlay">
-                            <a href="#" class="photo__link">
-                                <i class="fa fa-expand"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>    
             </div>
-        </div>
-    </section> 
+        </footer>
 
-
-    <section class="navigation" id="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <h6 class="navigation__title">
-                        О компании
-                    </h6>   
-                    <a href="#" class="navigation__link">
-                        Видение, миссия и ценности
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Преимущества
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Клиенты
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Партнеры
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Контакты
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <h6 class="navigation__title">
-                        Пресс – центр
-                    </h6>   
-                    <a href="#" class="navigation__link">
-                        Новости
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Публикации
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Мероприятия
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Консультация эксперта
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <h6 class="navigation__title">
-                        Услуги
-                    </h6>   
-                    <a href="#" class="navigation__link">
-                        Legal (Юридическое сопровождение)
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Accounting ( Финансовый аутсорсинг)
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Business Consulting (Бизнес консалтинг)
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <h6 class="navigation__title navigation__title_margin">
-                        Отрасли
-                    </h6>  
-                    <a href="#" class="navigation__link">
-                        Аграрный сектор
-                    </a> 
-                    <a href="#" class="navigation__link">
-                        Внешнеэкономическая деятельность
-                    </a>
-                    <a href="#" class="navigation__link">
-                        ИT – бизнес
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Оптовая и розничная торговля
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Сфера услуг
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Транспорт и Логистика
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <h6 class="navigation__title navigation__title_margin">
-                        Образовательный центр
-                    </h6>   
-                    <a href="#" class="navigation__link">
-                        Про Образовательный Центр
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Бизнес-тренинги, семинары, круглые столы
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Преимущества
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Alumni
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <h6 class="navigation__title navigation__title_margin">
-                        Соц. предпринимательство
-                    </h6>   
-                    <a href="#" class="navigation__link">
-                        Социальная миссия
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Проекты 
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Партнеры 
-                    </a>
-                    <a href="#" class="navigation__link">
-                        Консультация эксперта
-                    </a>
-                </div>
+        <div style="display: none;">
+            <div class="box-modal" id="exampleModal">
+                <div class="box-modal_close arcticmodal-close">закрыть</div>
+                Ты знал, что ты родился в свой день рождения?
             </div>
         </div>
-    </section>
-    <footer class="footer" id="footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-sm-4 col-lg-3 col-xl-4">
-                    <img src="img/logo.png" alt="LAB Consulting" class="logo footer__logo">
-                </div>
-                <div class="col-12 col-sm-4 col-lg-3">
-                    <p class="footer__text footer__text_want">
-                        Вы хотите сотрудничать с нами?<br> 
-                        У Вас есть идеи или предложения? 
-                        Свяжитесь с нами прямо сейчас!
-                    </p>
-                    <p class="footer__text footer__text_place">
-                        65000,<br>
-                        Украина, г. Одесса
-                        Ул Базарная, 36
-                    </p>
-                </div>
-                <div class="col-12 col-sm-4 col-lg-3">
-                    <div class="footer__wrap d-flex">
-                        <div class="footer__letter">
-                            W
-                        </div>
-                        <div class="footer__wrapper">
-                            <p class="footer__text">
-                                Дизайн и разработка
-                            </p>
-                            <p class="footer__text footer__text_big">
-                                Коучинг по верстке
-                            </p>
-                        </div>  
-                    </div>
-                    <p class="footer__text footer__text_rights">
-                        © Все права защищены<br>
-                        <Span>LAB Consulting</Span> 
-                    </p>
-                    <a href="#" class="footer__link footer__text_link">
-                        lab-consult.com
-                    </a>
-                </div>
-                <div class="d-none d-lg-block col-lg-3 col-xl-2 ml-auto">
-                    <a href="#" class="footer__btn btn modal_window">
-                        <i class="fa fa-phone"></i>
-                        Заказать звонок
-                    </a>
-                </div>  
-            </div>
-        </div>
-    </footer>
-
-    <div style="display: none;">
-        <div class="box-modal" id="exampleModal">
-            <div class="box-modal_close arcticmodal-close">закрыть</div>
-            Ты знал, что ты родился в свой день рождения?
-        </div>
-    </div>
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
